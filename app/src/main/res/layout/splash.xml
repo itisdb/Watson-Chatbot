@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1sharp"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/btnsend" />
+
+    <TextView
+        android:id="@+id/monica2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="                    Monica"
+        android:textColor="@color/bg_bubble_self"
+        android:scaleType="fitCenter"
+        android:textSize="30dp" />
+
+    <!--TextView
+        android:id="@+id/tag"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="425dp"
+        android:fontFamily="@font/marck_script"
+        android:text="Your one stop Customer Guide"
+        android:textSize="30dp" /-->
+
+</android.support.design.widget.CoordinatorLayout>
