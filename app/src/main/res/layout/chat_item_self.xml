@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_marginRight="5dp"
-        android:background="@drawable/bg_bubble_self"
+        android:background="@drawable/gradient"
         android:textColor="@android:color/white"
         android:textIsSelectable="true"
         android:textSize="14sp" />

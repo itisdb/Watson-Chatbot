@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.example.vmac.WatBot.MainActivity"
-    android:background="@color/dense">
+    android:id="@+id/animlayout"
+    android:background="@drawable/gradient_list">
 
     <include layout="@layout/content_chat_room" />
 

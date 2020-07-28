@@ -5,10 +5,10 @@
     android:orientation="horizontal">
 
     <android.support.v7.widget.AppCompatImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="56dp"
+        android:layout_height="66dp"
         android:layout_marginLeft="5dp"
-        android:src="@mipmap/ic_face" />
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/message"
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="10dp"
         android:autoLink="web"

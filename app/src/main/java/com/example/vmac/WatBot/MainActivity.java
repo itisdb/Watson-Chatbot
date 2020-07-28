@@ -1,14 +1,18 @@
 package com.example.vmac.WatBot;
 
 import android.Manifest;
+import android.app.ActionBar;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.drm.DrmStore;
 import android.graphics.Typeface;
+import android.graphics.drawable.AnimationDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -117,6 +121,16 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         mContext = getApplicationContext();
+
+
+
+        //animation for the main page
+        CoordinatorLayout coordinatorLayout=findViewById(R.id.animlayout);
+        AnimationDrawable animationDrawable=(AnimationDrawable) coordinatorLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setExitFadeDuration(4000);
+        animationDrawable.start();
+
 
         inputMessage = findViewById(R.id.message);
         btnSend = findViewById(R.id.btn_send);

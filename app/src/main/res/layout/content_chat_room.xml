@@ -38,17 +38,19 @@
 
         <EditText
             android:id="@+id/message"
-            android:layout_width="283dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="10dp"
+            android:layout_width="326dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
             android:layout_weight="3"
             android:background="@drawable/bg"
             android:hint="@string/what_s_on_your_mind"
             android:lines="1"
             android:paddingLeft="10dp"
-            android:textColor="@color/bg_bubble_self"
-            android:textColorHint="@color/bg_bubble_self"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textSize="13dp" />
 
         <!--Button
@@ -64,9 +66,9 @@
         <android.support.v7.widget.AppCompatImageButton
             android:id="@+id/btn_send"
             android:layout_width="47dp"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
+            android:layout_marginBottom="0dp"
             android:background="@null"
             android:scaleType="fitCenter"
             android:src="@drawable/btnsend" />
